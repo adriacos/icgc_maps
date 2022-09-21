@@ -1,7 +1,7 @@
 create_map <- function(lat, long){
     library(leaflet)
   library(leaflet.opacity)
-  
+  print(paste(lat, long, sep=";"))
   epsg4258 <- leafletCRS(crsClass="L.Proj.CRS", code="EPSG:4258", proj4def="+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs", resolutions=1.5^(25:15))	
   
   driver = "ESRI Shapefile"

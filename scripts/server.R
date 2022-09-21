@@ -9,6 +9,7 @@ shinyServer(function(input, output, session) {
   
   output$map <- renderLeaflet(
     if(input$geolocation==T){
+      print(paste(input$lat,input$long, sep=";"))
       create_map(input$lat,input$long)
     }
   )
