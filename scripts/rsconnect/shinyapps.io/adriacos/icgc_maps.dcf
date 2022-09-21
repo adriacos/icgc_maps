@@ -1,0 +1,13 @@
+name: icgc_maps
+title: icgc_maps
+username:
+account: adriacos
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7076390
+bundleId: 6323995
+url: https://adriacos.shinyapps.io/icgc_maps/
+when: 1663769944.78234
+lastSyncTime: 1663769944.78235
+asMultiple: FALSE
+asStatic: FALSE
